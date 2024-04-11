@@ -8,8 +8,8 @@ function Header () {
         <div id= "header-box">
             <Stack direction="horizontal" gap={3}>
             <div className="p-2">First item</div>
-            <div className="p-2 ms-auto"><Button variant="success">Logga in</Button>{' '}</div>
-            <div className="p-2">Third item</div>
+            <div className="p-2 ms-auto"><Button variant="secondary">Logga in</Button>{' '}</div>
+            <div id="kassa-img" className="p-2"><img src="/Images/kassa.png" alt="kassa" /></div>
             </Stack>
         </div>
    ) 

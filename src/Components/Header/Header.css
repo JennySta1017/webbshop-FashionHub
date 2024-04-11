@@ -1,5 +1,16 @@
 
 #header-box {
-    height: 100px;
+    height: 80px;
     background-color: rgb(160, 153, 153);
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#kassa-img img {
+    width: 40px;
+}
+
+#kassa-img img:hover {
+    width: 42px;
 }
